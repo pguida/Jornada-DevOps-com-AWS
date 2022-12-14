@@ -2,7 +2,7 @@
 
 # Install Docker
 apt-get update && upgrade -y
-apt-get install -y apt-transport-https ca-certificates curl gnupg lsb-release nfs-common
+apt-get install -y apt-transport-https ca-certificates curl gnupg lsb-release
 mkdir -p /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 echo \
